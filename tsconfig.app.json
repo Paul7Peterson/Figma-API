@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "removeComments": false,
+    "module": "ESNext",
+    "target": "ES2022",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": true,
+    "outDir": "dist",
+    "declarationDir": "dist",
+    "moduleResolution": "nodenext"
+  },
+  "include": [
+    "src",
+    "env.d.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+  ]
+}

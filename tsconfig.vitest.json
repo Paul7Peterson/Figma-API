@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "composite": true,
+    "lib": [],
+    "types": [
+      "node",
+      "jsdom",
+      "vitest/globals"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "figma/**/*",
+    "auto-imports.d.ts",
+  ],
+  "exclude": [],
+}

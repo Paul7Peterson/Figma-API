@@ -1,0 +1,43 @@
+{
+  "name": "@paul/figma-api",
+  "version": "0.0.1",
+  "author": {
+    "name": "Pablo Pérez Chueca"
+  },
+  "maintainers": [
+    {
+      "name": "Pablo Pérez Chueca"
+    }
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest",
+    "install:test": "cd ./lib-test && npm i"
+  },
+  "dependencies": {
+    "figma-api": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/color-convert": "^2.0.0",
+    "@types/jsdom": "^21.1.0",
+    "chalk": "^4.1.2",
+    "color-convert": "^2.0.1",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.1.0",
+    "vitest": "^0.28.5"
+  }
+}
