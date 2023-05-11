@@ -28,7 +28,8 @@
     "install:test": "cd ./lib-test && npm i"
   },
   "dependencies": {
-    "figma-api": "^1.11.0"
+    "figma-api": "^1.11.0",
+    "@paul7peterson/typescript-toolbox": "^0.0.1"
   },
   "devDependencies": {
     "@types/color-convert": "^2.0.0",

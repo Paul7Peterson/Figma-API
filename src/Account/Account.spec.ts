@@ -1,6 +1,6 @@
 
 
-import { aClass, aStaticMethod } from '../utils';
+import { aClass, aStaticMethod } from '@paul7peterson/typescript-toolbox';
 
 import { Account } from './Account';
 
